@@ -45,7 +45,6 @@ impl Cpu {
         self.instruction = None;
     }
 
-    /// returns `true` if it's ready to fetch a new instruction
     pub fn tick(&mut self) {
         self.cycles += 1;
 
